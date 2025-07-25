@@ -1,0 +1,5 @@
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.csproj.AssemblyReference.cache
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.AssemblyInfoInputs.cache
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.AssemblyInfo.cs
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.csproj.CoreCompileInputs.cache
