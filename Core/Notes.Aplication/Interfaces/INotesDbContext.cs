@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
-using Core.Notes.Domain;
+using Notes.Domain;
 
 namespace Notes.Aplication.Interfaces
 {

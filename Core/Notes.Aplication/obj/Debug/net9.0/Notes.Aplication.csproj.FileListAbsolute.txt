@@ -3,3 +3,14 @@
 /Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.AssemblyInfoInputs.cache
 /Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.AssemblyInfo.cs
 /Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.csproj.CoreCompileInputs.cache
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.sourcelink.json
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/bin/Debug/net9.0/Notes.Aplication.deps.json
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/bin/Debug/net9.0/Notes.Aplication.dll
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/bin/Debug/net9.0/Notes.Aplication.pdb
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/bin/Debug/net9.0/Notes.Domain.dll
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/bin/Debug/net9.0/Notes.Domain.pdb
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Ap.D09A19FA.Up2Date
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.dll
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/refint/Notes.Aplication.dll
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/Notes.Aplication.pdb
+/Users/alex/Desktop/NotesApi/Core/Notes.Aplication/obj/Debug/net9.0/ref/Notes.Aplication.dll

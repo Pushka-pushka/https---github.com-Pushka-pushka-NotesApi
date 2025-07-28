@@ -8,17 +8,17 @@ using AutoMapper;
 
 namespace Notes.Aplication.Common.Mapping
 {
-    public class AssenblyMappingProfile: Profile
+    public class AssemblyMappingProfile: Profile
     {
-        public AssenblyMappingProfile(Assenbly assembly) =>
-            ApplyMappingFromAssembly(assembly);
+        public AssemblyMappingProfile(Assembly assembly) =>
+            ApplyMappingsFromAssembly(assembly);
         
         private void ApplyMappingsFromAssembly(Assembly assembly)
         {
             var types = assembly.GetExportedTypes()
                 .Where(type => type.GetInterfaces()
                 .Any(i => i.IsGenericType &&
-                i.GetGenerucTypeDefenition() == typeof(IMapWith<>)))
+                i.GetGenericTypeDefinition() == typeof(IMapWith<>)))
                 .ToList();
 
             foreach (var type in types)
