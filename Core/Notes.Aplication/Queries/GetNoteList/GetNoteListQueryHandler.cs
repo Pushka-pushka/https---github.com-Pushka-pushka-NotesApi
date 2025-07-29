@@ -13,7 +13,7 @@ using Notes.Aplication.Interfaces;
 
 namespace Notes.Aplication.Queries.GetNoteList
 {
-    public class GetNoteListQueryHandler : IRequestuestHandler<GetNoteListQuery, NoteListVm>
+    public class GetNoteListQueryHandler : IRequestHandler<GetNoteListQuery, NoteListVm>
     {
         private readonly INotesDbContext _context;
         private readonly IMapper _mapper;
@@ -26,8 +26,8 @@ namespace Notes.Aplication.Queries.GetNoteList
 
         public async Task<NoteListVm> Handle(GetNoteListQuery request, CancellationToken cancellationToken)
         {
-            var notesQuery = await _dbContext.Notes
-                .Where(note => note.UserID == request.UserID)
+            var notesQuery = await _context.Notes
+                .Where(note => note.UserId == request.UserId)
                 .ProjectTo<NoteLookupDto>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
 

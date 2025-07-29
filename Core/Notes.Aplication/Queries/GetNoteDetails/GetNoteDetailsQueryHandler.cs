@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Microsoft.EntityFrameWorkCore;
+using Microsoft.EntityFrameworkCore;
 using MediatR;
 using AutoMapper;
 
-using Notes.Aplication.interfaces;
+using Notes.Aplication.Interfaces;
 using Notes.Aplication.Common.Exceptions;
 using Notes.Domain;
 
@@ -34,7 +34,7 @@ namespace Notes.Aplication.Queries.GetNoteDetails
              
             if(entity == null || entity.UserId != request.UserId)
              {
-                throw new NotFoundExctption(nameof(Note), request.Id);
+                throw new NotFoundException(nameof(Note), request.Id);
              }
 
              return _mapper.Map<NoteDetailsVm>(entity);

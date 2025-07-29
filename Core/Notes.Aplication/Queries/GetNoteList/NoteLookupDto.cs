@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MediatR;
 using AutoMapper;
 
-using Notes.Aplication.Common.Mappings;
+using Notes.Aplication.Common.Mapping;
 using Notes.Domain;
 
 namespace Notes.Aplication.Queries.GetNoteList

@@ -10,7 +10,7 @@ using Notes.Aplication.Interfaces;
 
 namespace Notes.Aplication.Commands.CreateNote
 {
-    public class CreateNoteCommandHandler: IRequestHandler<CreatNoteCommand, Guid>
+    public class CreateNoteCommandHandler: IRequestHandler<CreateNoteCommand, Guid>
     {
         private readonly INotesDbContext _dbContext;
 
